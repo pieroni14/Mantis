@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Mantis</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext">
+                <a href="index.html" class="bluetext">Home</a>
+                > <a
+                    href="aff9d76bd1352a96263444ecdfccd480dfb34c1ee83c1a1167e7ddb555c4a2c2.html">Script Dois Test</a>
+                > <a
+                    href="a79efe6a6a23c6d5416f0499dc57d8ae4e733c777c1eb288768429df647dda39.html">Cenario tres status confirmed </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-04-2018 20:24</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <!--
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Cenario tres status confirmed<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">0s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+-->
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-comments-o"></i>
+                                    <span class="story-header-title">Script Dois Test</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><img class="story-outcome-icon"
+                                                            src="images/success.png"/></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Cenario tres status confirmed
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+
+        <div class="scenario">[1] {severity=major, selectProfile=Desktop Windows 10, summary=Como automatizar um report no mantis, AdditionalInformation=Validando cenÃ¡rio de cadastro de bug no mantis, StepsToReproduce=Etapa 01 execute o CenarioUMTest.Java ..., notes=mudanca de estatus confirmed, OS=Windows, reproducibility=unable to reproduce, categoria=[All Projects] Teste Pieroni, description=automacao de teste encima do mantis, priority=urgent, delete=Delete, platform=Microsft, summaryEdit=Como automatizar um report no mantis[Edit], notesClosed=Fechado o bug reportado, senha=teste2018, projeto=Marcelo Pieroni's Project, Username=marcelo.pieroni, statusMudanca=confirmed, statusMudancaClosed=closed, OSVersion=10, assignTo=marcelo.pieroni}</div>
+
+    </div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="eaae4be5f5eb402beb25c245aecac650_NONE.png" alt=""
+                     title="Abrir o mantis" width="929"/>
+                <img src="3b07dc32ee9fec490e80faef91a90158_NONE.png" alt=""
+                     title="Autentica&ccedil;&atilde;o do usu&aacute;rio no mantis" width="929"/>
+                <img src="db2f88b4af961b1670f0a8abaf0720ce_NONE.png" alt=""
+                     title="Autentica&ccedil;&atilde;o do usu&aacute;rio no mantis" width="929"/>
+                <img src="db2f88b4af961b1670f0a8abaf0720ce_NONE.png" alt=""
+                     title="Abri a tela de visualizar bug reportado" width="929"/>
+                <img src="ea669b827a8176dd228d4bd7ba4be86c_NONE.png" alt=""
+                     title="Abri a tela de visualizar bug reportado" width="929"/>
+                <img src="ea669b827a8176dd228d4bd7ba4be86c_NONE.png" alt=""
+                     title="Atualizar o status do bug para confirmado " width="929"/>
+                <img src="b7c83149cead7cde4ddc7f65fca9bdb6_NONE.png" alt=""
+                     title="Atualizar o status do bug para confirmado " width="929"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.0.47</span>
+</div>
+</body>
+</html>

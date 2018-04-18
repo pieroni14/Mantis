@@ -1,0 +1,85 @@
+<acceptance-test-run title="Cenario quatro status closed" name="CenarioQuatroStatusClosed" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="0" timestamp="2018-04-18T20:24:13.992-03:00">
+  <user-story id="project.mantis.test.ScriptDoisTest" name="Script dois test" path="project.mantis.test"/>
+  <tags>
+    <tag name="Script dois test" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>Username</header>
+      <header>senha</header>
+      <header>projeto</header>
+      <header>categoria</header>
+      <header>reproducibility</header>
+      <header>severity</header>
+      <header>priority</header>
+      <header>selectProfile</header>
+      <header>assignTo</header>
+      <header>platform</header>
+      <header>OS</header>
+      <header>OSVersion</header>
+      <header>summary</header>
+      <header>description</header>
+      <header>StepsToReproduce</header>
+      <header>AdditionalInformation</header>
+      <header>summaryEdit</header>
+      <header>statusMudanca</header>
+      <header>notes</header>
+      <header>statusMudancaClosed</header>
+      <header>notesClosed</header>
+      <header>delete</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>marcelo.pieroni</value>
+        <value>teste2018</value>
+        <value>Marcelo Pieroni&apos;s Project</value>
+        <value>[All Projects] Teste Pieroni</value>
+        <value>unable to reproduce</value>
+        <value>major</value>
+        <value>urgent</value>
+        <value>Desktop Windows 10</value>
+        <value>marcelo.pieroni</value>
+        <value>Microsft</value>
+        <value>Windows</value>
+        <value>10</value>
+        <value>Como automatizar um report no mantis</value>
+        <value>automacao de teste encima do mantis</value>
+        <value>Etapa 01 execute o CenarioUMTest.Java ...</value>
+        <value>Validando cenÃ¡rio de cadastro de bug no mantis</value>
+        <value>Como automatizar um report no mantis[Edit]</value>
+        <value>confirmed</value>
+        <value>mudanca de estatus confirmed</value>
+        <value>closed</value>
+        <value>Fechado o bug reportado</value>
+        <value>Delete</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="Cenario quatro status closed" result="SUCCESS">
+    <test-group name="[1] {severity=major, selectProfile=Desktop Windows 10, summary=Como automatizar um report no mantis, AdditionalInformation=Validando cenÃ¡rio de cadastro de bug no mantis, StepsToReproduce=Etapa 01 execute o CenarioUMTest.Java ..., notes=mudanca de estatus confirmed, OS=Windows, reproducibility=unable to reproduce, categoria=[All Projects] Teste Pieroni, description=automacao de teste encima do mantis, priority=urgent, delete=Delete, platform=Microsft, summaryEdit=Como automatizar um report no mantis[Edit], notesClosed=Fechado o bug reportado, senha=teste2018, projeto=Marcelo Pieroni&apos;s Project, Username=marcelo.pieroni, statusMudanca=confirmed, statusMudancaClosed=closed, OSVersion=10, assignTo=marcelo.pieroni}" result="SUCCESS">
+      <test-step result="SUCCESS" duration="4008">
+        <screenshots>
+          <screenshot image="eaae4be5f5eb402beb25c245aecac650_NONE.png"/>
+        </screenshots>
+        <description>Abrir o mantis</description>
+      </test-step>
+      <test-step result="SUCCESS" duration="2136">
+        <screenshots>
+          <screenshot image="3b07dc32ee9fec490e80faef91a90158_NONE.png"/>
+          <screenshot image="e493e581436855bdfe552cc10a202e9c_NONE.png"/>
+        </screenshots>
+        <description>Autenticação do usuário no mantis</description>
+      </test-step>
+      <test-step result="SUCCESS" duration="1996">
+        <screenshots>
+          <screenshot image="e493e581436855bdfe552cc10a202e9c_NONE.png"/>
+          <screenshot image="94daeb1c58c4cb5526c6e0ee20a44bbb_NONE.png"/>
+        </screenshots>
+        <description>Abri a tela de visualizar bug reportado</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

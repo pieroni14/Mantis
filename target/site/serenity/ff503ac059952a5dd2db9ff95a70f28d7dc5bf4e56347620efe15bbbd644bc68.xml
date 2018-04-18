@@ -1,0 +1,54 @@
+<acceptance-test-run title="Cenario cinco validacao atualizacao senha da conta" name="CenarioCincoValidacaoAtualizacaoSenhaDaConta" steps="2" successful="2" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="0" timestamp="2018-04-18T20:25:20.822-03:00">
+  <user-story id="project.mantis.test.ScriptUmTest" name="Script um test" path="project.mantis.test"/>
+  <tags>
+    <tag name="Script um test" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>userInvalido</header>
+      <header>senhaInvalida</header>
+      <header>user</header>
+      <header>senha</header>
+      <header>projeto</header>
+      <header>categoria</header>
+      <header>summary</header>
+      <header>description</header>
+      <header>delete</header>
+      <header>jump</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>invalid.user</value>
+        <value>senha</value>
+        <value>marcelo.pieroni</value>
+        <value>teste2018</value>
+        <value>Marcelo Pieroni&apos;s Project</value>
+        <value>[All Projects] Teste Pieroni</value>
+        <value>Validando Campo Obrigatorio Summary</value>
+        <value>Validando campo Obrigatorio Descricao</value>
+        <value>delete</value>
+        <value>0001277</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="Cenario cinco validacao atualizacao senha da conta" result="SUCCESS">
+    <test-group name="[1] {summary=Validando Campo Obrigatorio Summary, senha=teste2018, projeto=Marcelo Pieroni&apos;s Project, categoria=[All Projects] Teste Pieroni, description=Validando campo Obrigatorio Descricao, userInvalido=invalid.user, senhaInvalida=senha, user=marcelo.pieroni, delete=delete, jump=0001277}" result="SUCCESS">
+      <test-step result="SUCCESS" duration="3900">
+        <screenshots>
+          <screenshot image="eaae4be5f5eb402beb25c245aecac650_NONE.png"/>
+        </screenshots>
+        <description>Abrir o mantis</description>
+      </test-step>
+      <test-step result="SUCCESS" duration="2270">
+        <screenshots>
+          <screenshot image="3b07dc32ee9fec490e80faef91a90158_NONE.png"/>
+          <screenshot image="281d62fe03a65edcd7b8c9a96544d9d9_NONE.png"/>
+        </screenshots>
+        <description>Validando com os acessos correto</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,8 @@
+project\mantis\steps\ScriptUmStep.class
+project\mantis\pages\ScriptPageDois.class
+project\mantis\pages\ScriptPageUm.class
+project\mantis\AppTest.class
+project\mantis\pages\PagesWebElements.class
+project\mantis\test\ScriptUmTest.class
+project\mantis\steps\ScriptDoisStep.class
+project\mantis\test\ScriptDoisTest.class
